@@ -1,4 +1,4 @@
-#Pulse Oximeter Module
+Pulse Oximeter Module
 
 This project was done as part of the coursework for ECEN-5613 (Embedded System Design) at University of Colorado, Boulder.
 
