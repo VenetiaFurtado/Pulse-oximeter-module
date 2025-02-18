@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "interrupts.h": "c",
+        "stdbool.h": "c",
+        "debug.h": "c",
+        "init.h": "c",
+        "compare": "c",
+        "stdint.h": "c",
+        "i2c.h": "c",
+        "at89c51ed2.h": "c",
+        "math.h": "c",
+        "log.h": "c",
+        "io.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

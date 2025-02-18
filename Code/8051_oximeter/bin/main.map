@@ -1,0 +1,740 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_BSEG                          
+C:   00000000  l_BSEG_BYTES                    
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT                        
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_PSEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000000  s_XSEG                          
+C:   00000001  l_OSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000004  l_XINIT                         
+C:   00000004  l_XISEG                         
+C:   00000006  l_HOME                          
+C:   00000006  s_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   00000009  s_GSINIT1                       
+C:   00000009  s_GSINIT2                       
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000013  s_GSINIT3                       
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000002A  l_GSINIT4                       
+C:   0000002C  s_OSEG                          
+C:   0000002D  s_SSEG                          
+C:   00000035  s_GSINIT4                       
+C:   0000005F  s_GSFINAL                       
+C:   0000005F  s_GSINIT                        
+C:   0000005F  s_GSINIT5                       
+C:   00000062  s_CSEG                          
+C:   00000080  l_DSEG                          
+C:   000000D3  l_SSEG                          
+C:   00000100  l_IRAM                          
+C:   00000225  l_XSEG                          
+C:   00000225  s_XISEG                         
+C:   00001201  l_CONST                         
+C:   00004A2B  l_CSEG                          
+C:   00004A8D  s_CONST                         
+C:   00005C8E  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _fsreturnval
+     00000080  _P0                                maxsensor
+     00000080  _P0_0                              maxsensor
+     00000081  _P0_1                              maxsensor
+     00000081  _SP                                maxsensor
+     00000082  _DPL                               maxsensor
+     00000082  _P0_2                              maxsensor
+     00000083  _DPH                               maxsensor
+     00000083  _P0_3                              maxsensor
+     00000084  _P0_4                              maxsensor
+     00000085  _P0_5                              maxsensor
+     00000086  _P0_6                              maxsensor
+     00000087  _P0_7                              maxsensor
+     00000087  _PCON                              maxsensor
+     00000088  _IT0                               maxsensor
+     00000088  _TCON                              maxsensor
+     00000089  _IE0                               maxsensor
+     00000089  _TMOD                              maxsensor
+     0000008A  _IT1                               maxsensor
+     0000008A  _TL0                               maxsensor
+     0000008B  _IE1                               maxsensor
+     0000008B  _TL1                               maxsensor
+     0000008C  _TH0                               maxsensor
+     0000008C  _TR0                               maxsensor
+     0000008D  _TF0                               maxsensor
+     0000008D  _TH1                               maxsensor
+     0000008E  _AUXR                              maxsensor
+     0000008E  _TR1                               maxsensor
+     0000008F  _CKCON0                            maxsensor
+     0000008F  _TF1                               maxsensor
+     00000090  _P1                                maxsensor
+     00000090  _P1_0                              maxsensor
+     00000091  _P1_1                              maxsensor
+     00000092  _P1_2                              maxsensor
+     00000093  _P1_3                              maxsensor
+     00000094  _P1_4                              maxsensor
+     00000095  _P1_5                              maxsensor
+     00000096  _P1_6                              maxsensor
+     00000097  _CKRL                              maxsensor
+     00000097  _P1_7                              maxsensor
+     00000098  _RI                                maxsensor
+     00000098  _SCON                              maxsensor
+     00000099  _SBUF                              maxsensor
+     00000099  _TI                                maxsensor
+     0000009A  _BRL                               maxsensor
+     0000009A  _RB8                               maxsensor
+     0000009B  _BDRCON                            maxsensor
+     0000009B  _TB8                               maxsensor
+     0000009C  _KBLS                              maxsensor
+     0000009C  _REN                               maxsensor
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009D  _KBE                               maxsensor
+     0000009D  _SM2                               maxsensor
+     0000009E  _KBF                               maxsensor
+     0000009E  _SM1                               maxsensor
+     0000009F  _SM0                               maxsensor
+     000000A0  _P2                                maxsensor
+     000000A0  _P2_0                              maxsensor
+     000000A0  __XPAGE                            
+     000000A1  _P2_1                              maxsensor
+     000000A2  _AUXR1                             maxsensor
+     000000A2  _P2_2                              maxsensor
+     000000A3  _P2_3                              maxsensor
+     000000A4  _P2_4                              maxsensor
+     000000A5  _P2_5                              maxsensor
+     000000A6  _P2_6                              maxsensor
+     000000A6  _WDTRST                            maxsensor
+     000000A7  _P2_7                              maxsensor
+     000000A7  _WDTPRG                            maxsensor
+     000000A8  _EX0                               maxsensor
+     000000A8  _IE                                maxsensor
+     000000A8  _IEN0                              maxsensor
+     000000A9  _ET0                               maxsensor
+     000000A9  _SADDR                             maxsensor
+     000000AA  _EX1                               maxsensor
+     000000AB  _ET1                               maxsensor
+     000000AC  _ES                                maxsensor
+     000000AD  _ET2                               maxsensor
+     000000AE  _EC                                maxsensor
+     000000AF  _CKCON1                            maxsensor
+     000000AF  _EA                                maxsensor
+     000000B0  _P3                                maxsensor
+     000000B0  _P3_0                              maxsensor
+     000000B0  _RXD                               maxsensor
+     000000B1  _IEN1                              maxsensor
+     000000B1  _P3_1                              maxsensor
+     000000B1  _TXD                               maxsensor
+     000000B2  _INT0                              maxsensor
+     000000B2  _IPL1                              maxsensor
+     000000B2  _P3_2                              maxsensor
+     000000B3  _INT1                              maxsensor
+     000000B3  _IPH1                              maxsensor
+     000000B3  _P3_3                              maxsensor
+     000000B4  _P3_4                              maxsensor
+     000000B4  _T0                                maxsensor
+     000000B5  _P3_5                              maxsensor
+     000000B5  _T1                                maxsensor
+     000000B6  _P3_6                              maxsensor
+     000000B6  _WR                                maxsensor
+     000000B7  _IPH0                              maxsensor
+     000000B7  _P3_7                              maxsensor
+     000000B7  _RD                                maxsensor
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B8  _IP                                maxsensor
+     000000B8  _IPL0                              maxsensor
+     000000B8  _PX0                               maxsensor
+     000000B8  _PX0L                              maxsensor
+     000000B9  _PT0                               maxsensor
+     000000B9  _PT0L                              maxsensor
+     000000B9  _SADEN                             maxsensor
+     000000BA  _PX1                               maxsensor
+     000000BA  _PX1L                              maxsensor
+     000000BB  _PT1                               maxsensor
+     000000BB  _PT1L                              maxsensor
+     000000BC  _PS                                maxsensor
+     000000BC  _PSL                               maxsensor
+     000000BD  _PT2                               maxsensor
+     000000BD  _PT2L                              maxsensor
+     000000BE  _PPCL                              maxsensor
+     000000C0  _P4                                maxsensor
+     000000C0  _P4_0                              maxsensor
+     000000C1  _P4_1                              maxsensor
+     000000C2  _P4_2                              maxsensor
+     000000C3  _P4_3                              maxsensor
+     000000C3  _SPCON                             maxsensor
+     000000C4  _P4_4                              maxsensor
+     000000C4  _SPSTA                             maxsensor
+     000000C5  _P4_5                              maxsensor
+     000000C5  _SPDAT                             maxsensor
+     000000C6  _P4_6                              maxsensor
+     000000C7  _P4_7                              maxsensor
+     000000C8  _CP_RL2                            maxsensor
+     000000C8  _T2CON                             maxsensor
+     000000C8  _T2CON_0                           maxsensor
+     000000C9  _C_T2                              maxsensor
+     000000C9  _T2CON_1                           maxsensor
+     000000C9  _T2MOD                             maxsensor
+     000000CA  _RCAP2L                            maxsensor
+     000000CA  _T2CON_2                           maxsensor
+     000000CA  _TR2                               maxsensor
+     000000CB  _EXEN2                             maxsensor
+     000000CB  _RCAP2H                            maxsensor
+     000000CB  _T2CON_3                           maxsensor
+     000000CC  _T2CON_4                           maxsensor
+     000000CC  _TCLK                              maxsensor
+     000000CC  _TL2                               maxsensor
+     000000CD  _RCLK                              maxsensor
+     000000CD  _T2CON_5                           maxsensor
+     000000CD  _TH2                               maxsensor
+     000000CE  _EXF2                              maxsensor
+     000000CE  _T2CON_6                           maxsensor
+     000000CF  _T2CON_7                           maxsensor
+     000000CF  _TF2                               maxsensor
+     000000D0  _P                                 maxsensor
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D0  _PSW                               maxsensor
+     000000D1  _F1                                maxsensor
+     000000D2  _EECON                             maxsensor
+     000000D2  _OV                                maxsensor
+     000000D3  _RS0                               maxsensor
+     000000D4  _RS1                               maxsensor
+     000000D5  _F0                                maxsensor
+     000000D6  _AC                                maxsensor
+     000000D7  _CY                                maxsensor
+     000000D8  _CCF0                              maxsensor
+     000000D8  _CCON                              maxsensor
+     000000D9  _CCF1                              maxsensor
+     000000D9  _CMOD                              maxsensor
+     000000DA  _CCAPM0                            maxsensor
+     000000DA  _CCF2                              maxsensor
+     000000DB  _CCAPM1                            maxsensor
+     000000DB  _CCF3                              maxsensor
+     000000DC  _CCAPM2                            maxsensor
+     000000DC  _CCF4                              maxsensor
+     000000DD  _CCAPM3                            maxsensor
+     000000DE  _CCAPM4                            maxsensor
+     000000DE  _CR                                maxsensor
+     000000DF  _CF                                maxsensor
+     000000E0  _ACC                               maxsensor
+     000000E8  _P5                                maxsensor
+     000000E8  _P5_0                              maxsensor
+     000000E9  _CL                                maxsensor
+     000000E9  _P5_1                              maxsensor
+     000000EA  _CCAP0L                            maxsensor
+     000000EA  _P5_2                              maxsensor
+     000000EB  _CCAP1L                            maxsensor
+     000000EB  _P5_3                              maxsensor
+     000000EC  _CCAP2L                            maxsensor
+     000000EC  _P5_4                              maxsensor
+     000000ED  _CCAP3L                            maxsensor
+     000000ED  _P5_5                              maxsensor
+     000000EE  _CCAP4L                            maxsensor
+     000000EE  _P5_6                              maxsensor
+     000000EF  _P5_7                              maxsensor
+     000000F0  _B                                 maxsensor
+     000000F5  _B_5                               _gptrget
+     000000F6  _B_6                               _gptrget
+     000000F7  _B_7                               _gptrget
+     000000F9  _CH                                maxsensor
+     000000FA  _CCAP0H                            maxsensor
+     000000FB  _CCAP1H                            maxsensor
+     000000FC  _CCAP2H                            maxsensor
+     000000FD  _CCAP3H                            maxsensor
+     000000FE  _CCAP4H                            maxsensor
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000080 =         128. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000021  _bp                                _bp
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                0000002C    00000001 =           1. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                0000002D    000000D3 =         211. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000002D  __start__stack                     main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XSEG                                00000000    00000225 =         549. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   00000019  _readBiodata_PARM_2                datareceiver
+D:   00000025  _sendControlByte_PARM_2            i2c
+D:   00000026  _sendControlByte_PARM_3            i2c
+D:   00000029  _sendControlByteNoAddr_PARM_2      i2c
+D:   0000002E  _readRegisterMAXWing_PARM_2        i2c
+D:   00000032  _readBytesMAXWing_PARM_2           i2c
+D:   00000033  _readBytesMAXWing_PARM_3           i2c
+D:   00000036  _readBytesMAXWing_PARM_4           i2c
+D:   0000003A  _writeRegisterMAXWing_PARM_2       i2c
+D:   0000003B  _writeRegisterMAXWing_PARM_3       i2c
+D:   00000041  _getUserNumberInput_PARM_2         io
+D:   00000047  _getUserHexInput_PARM_2            io
+D:   00000050  _gLcdWriteToRegister_PARM_2        lcd
+D:   00000055  _glcdGoToAddr_PARM_2               lcd
+D:   00000057  _glcdWrite_PARM_2                  lcd
+D:   00000058  _glcdWrite_PARM_3                  lcd
+D:   0000005D  _setPixel_PARM_2                   lcd
+D:   0000005E  _setPixel_PARM_3                   lcd
+D:   00000061  _glcdWriteChar_PARM_2              lcd
+D:   00000062  _glcdWriteChar_PARM_3              lcd
+D:   00000064  _gcldClearString_PARM_2            lcd
+D:   00000065  _gcldClearString_PARM_3            lcd
+D:   00000067  _glcdWriteString_PARM_2            lcd
+D:   00000068  _glcdWriteString_PARM_3            lcd
+D:   0000006C  _absolute_PARM_2                   lcd
+D:   00000071  _glcdDrawGraph_PARM_2              lcd
+D:   00000073  _glcdDrawGraph_PARM_3              lcd
+D:   00000075  _glcdDrawGraph_PARM_4              lcd
+D:   00000083  _itoa_PARM_2                       lcd
+D:   00000098  _previousReadingX                  lcd
+D:   00000099  _previousReadingY                  lcd
+D:   0000009C  _generateRandom_PARM_2             lcd
+D:   000000A1  _i2cMax32664WriteBytes_PARM_2      maxhub
+D:   000000A2  _i2cMax32664WriteBytes_PARM_3      maxhub
+D:   000000A5  _i2cMax32664WriteBytes_PARM_4      maxhub
+D:   000000A7  _i2cMax32664WriteByte_PARM_2       maxhub
+D:   000000A8  _i2cMax32664WriteByte_PARM_3       maxhub
+D:   000000AA  _i2cMax32664ReadByte_PARM_2        maxhub
+D:   000000AB  _i2cMax32664ReadByte_PARM_3        maxhub
+D:   000000AF  _i2cMax32664SequentialReadByte_P   maxhub
+D:   000000B0  _i2cMax32664SequentialReadByte_P   maxhub
+D:   000000B3  _i2cMax32664SequentialReadByte_P   maxhub
+D:   000000B5  _writeRegisterMAX30101_PARM_2      maxhub
+D:   000000C1  _readBpm_PARM_2                    maxhub
+D:   000000D2  _readSensorBpm_PARM_2              maxhub
+D:   0000010C  _configureSensorRegister_PARM_2    maxsensor
+D:   0000010D  _configureSensorRegister_PARM_3    maxsensor
+D:   0000010F  _getBufferSizeInBytes_PARM_2       maxsensor
+D:   000001D5  __divuint_PARM_2                   _divuint
+D:   000001DE  __gptrput_PARM_2                   _gptrput
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XSEG                                00000000    00000225 =         549. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   000001DF  __mulint_PARM_2                    _mulint
+D:   000001E1  __modsint_PARM_2                   _modsint
+D:   000001E5  __moduint_PARM_2                   _moduint
+D:   000001EA  __divsint_PARM_2                   _divsint
+D:   000001EE  _vprintf_PARM_2                    vprintf
+D:   00000203  __print_format_PARM_2              printf_large
+D:   00000206  __print_format_PARM_3              printf_large
+D:   00000209  __print_format_PARM_4              printf_large
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XISEG                               00000225    00000004 =           4. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000006 =           6. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000003  __sdcc_program_startup             main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000006    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000006  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000009    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000013    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000013  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000035    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000035  __mcs51_genRAMCLEAR                
+C:   0000003B  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000005F    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00004A2B =       18987. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000062  _main                              main
+C:   00000180  _getStatusString                   datareceiver
+C:   000001BD  _readBiodata                       datareceiver
+C:   00000405  _clock                             i2c
+C:   0000040E  _checkAcknowledgement              i2c
+C:   00000428  _start                             i2c
+C:   00000435  _stop                              i2c
+C:   00000442  _sendAcknowledge                   i2c
+C:   0000044E  _sendNAcknowledge                  i2c
+C:   00000458  _reverse                           i2c
+C:   0000049D  _sendControlByte                   i2c
+C:   00000530  _sendControlByteNoAddr             i2c
+C:   00000578  _i2cByteWrite                      i2c
+C:   000005BB  _i2cByteRead                       i2c
+C:   000005F4  _readRegisterMAXWing               i2c
+C:   00000768  _readBytesMAXWing                  i2c
+C:   00000968  _writeRegisterMAXWing              i2c
+C:   00000AB3  _testI2c                           i2c
+C:   00000B36  __sdcc_external_startup            init
+C:   00000B3D  _hardware_init                     init
+C:   00000B4B  _putchar                           io
+C:   00000B6A  _getchar                           io
+C:   00000B78  _getUserNumberInput                io
+C:   00000D22  _getUserHexInput                   io
+C:   00000F17  _delay                             lcd
+C:   00000F3E  _busyWait                          lcd
+C:   00000F46  _gLcdWriteToRegister               lcd
+C:   00000FD0  _glcdControllerSelect              lcd
+C:   00000FE5  _glcdGoToAddr                      lcd
+C:   00001053  _glcdWrite                         lcd
+C:   00001097  _glcdRead                          lcd
+C:   000010F8  _setPixel                          lcd
+C:   000011AC  _glcdClear                         lcd
+C:   000011DE  _glcdWriteChar                     lcd
+C:   00001249  _gcldClearString                   lcd
+C:   00001290  _glcdWriteString                   lcd
+C:   000012F3  _absolute                          lcd
+C:   00001338  _glcdDrawGraph                     lcd
+C:   00001636  _itoa                              lcd
+C:   00001702  _glcdUpdateSpo2                    lcd
+C:   00001767  _glcdUpdateBpm                     lcd
+C:   000017B8  _glcdUpdateStatus                  lcd
+C:   000017FC  _glcdInit                          lcd
+C:   0000188A  _glcdPlotIrValue                   lcd
+C:   00001944  _generateRandom                    lcd
+C:   00001995  _lcdTest                           lcd
+C:   00001A05  _hubDelayMs                        maxhub
+C:   00001A31  _i2cMax32664WriteBytes             maxhub
+C:   00001C0A  _i2cMax32664WriteByte              maxhub
+C:   00001C78  _i2cMax32664ReadByte               maxhub
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00004A2B =       18987. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00001E39  _i2cMax32664SequentialReadByte     maxhub
+C:   0000208F  _writeRegisterMAX30101             maxhub
+C:   000020C1  _readRegisterMAX30101              maxhub
+C:   000020E0  _readSensorHubMode                 maxhub
+C:   00002126  _setApplicationMode                maxhub
+C:   000021BB  _setBootloaderMode                 maxhub
+C:   000021CD  _readSensorHubStatus               maxhub
+C:   000021E0  _setOutputMode                     maxhub
+C:   00002247  _setFifoThreshold                  maxhub
+C:   000022A4  _agcAlgoControl                    maxhub
+C:   0000230D  _max30101Control                   maxhub
+C:   00002372  _maximFastAlgoControl              maxhub
+C:   000023DA  _configBpm                         maxhub
+C:   0000254C  _configSensorBpm                   maxhub
+C:   000026B8  _numSamplesOutFifo                 maxhub
+C:   000026FA  _readBpm                           maxhub
+C:   00002B3E  _readSensorBpm                     maxhub
+C:   00002FED  _setPulseWidth                     maxhub
+C:   00003059  _setSampleRate                     maxhub
+C:   00003101  _checkDeviceType                   maxhub
+C:   00003198  _lastTest                          maxhub
+C:   00003214  _testMaxHub                        maxhub
+C:   0000338E  _sensor_delay                      maxsensor
+C:   000033B4  _pmicInit                          maxsensor
+C:   000033DD  _configureSensorRegister           maxsensor
+C:   000034A7  _sensorInit                        maxsensor
+C:   000036F9  _getBufferSizeInBytes              maxsensor
+C:   00003737  _readSensorFifo                    maxsensor
+C:   00003915  _getInterruptStatus                maxsensor
+C:   00003985  _testMaxWing                       maxsensor
+C:   00003A6E  __divuint                          _divuint
+C:   00003AFB  _rand                              rand
+C:   00003B73  _srand                             rand
+C:   00003B9B  __gptrput                          _gptrput
+C:   00003BB6  _printf_tiny                       printf_tiny
+C:   00003CBF  __mulint                           _mulint
+C:   00003CDF  __modsint                          _modsint
+C:   00003D47  __moduint                          _moduint
+C:   00003DF3  __divsint                          _divsint
+C:   00003E65  ___uint2fs                         _uint2fs
+C:   00003E80  _vprintf                           vprintf
+C:   00003EBF  _printf                            vprintf
+C:   00003FC5  __print_format                     printf_large
+C:   000048D3  _strlen                            _strlen
+C:   000048EB  ___fsdiv                           _fsdiv
+C:   000049AE  __gptrget                          _gptrget
+C:   000049CA  ___ulong2fs                        _ulong2fs
+C:   000049D3  ulong2fs_doit                      _ulong2fs
+C:   000049DD  fsgetargs                          _fsget2args
+C:   00004A0B  fs_normalize_a                     _fsnormalize
+C:   00004A3E  fs_round_and_return                _fsreturnval
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00004A2B =       18987. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00004A56  fs_zerocheck_return                _fsreturnval
+C:   00004A5F  fs_return_zero                     _fsreturnval
+C:   00004A67  fs_direct_return                   _fsreturnval
+C:   00004A75  fs_return_inf                      _fsreturnval
+C:   00004A82  fs_return_nan                      _fsreturnval
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00004A8D    00001201 =        4609. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00004D9B  _font                              lcd
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XINIT                               00005C8E    00000004 =           4. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+
+Files Linked                              [ module(s) ]
+
+bin/main.rel                              [  ]
+bin/datareceiver.rel                      [  ]
+bin/i2c.rel                               [  ]
+bin/init.rel                              [  ]
+bin/io.rel                                [  ]
+bin/lcd.rel                               [  ]
+bin/maxhub.rel                            [  ]
+bin/maxsensor.rel                         [  ]
+
+
+Libraries Linked                          [ object file ]
+
+/usr/bin/../share/sdcc/lib/large/libint.lib
+                                          [ _divuint.rel ]
+/usr/bin/../share/sdcc/lib/large/libsdcc.lib
+                                          [ rand.rel ]
+/usr/bin/../share/sdcc/lib/large/mcs51.lib
+                                          [ crtclear.rel ]
+/usr/bin/../share/sdcc/lib/large/mcs51.lib
+                                          [ crtxinit.rel ]
+/usr/bin/../share/sdcc/lib/large/libsdcc.lib
+                                          [ _gptrput.rel ]
+/usr/bin/../share/sdcc/lib/large/libsdcc.lib
+                                          [ printf_tiny.rel ]
+/usr/bin/../share/sdcc/lib/large/libint.lib
+                                          [ _mulint.rel ]
+/usr/bin/../share/sdcc/lib/large/libint.lib
+                                          [ _modsint.rel ]
+/usr/bin/../share/sdcc/lib/large/libint.lib
+                                          [ _moduint.rel ]
+/usr/bin/../share/sdcc/lib/large/libint.lib
+                                          [ _divsint.rel ]
+/usr/bin/../share/sdcc/lib/large/mcs51.lib
+                                          [ crtxclear.rel ]
+/usr/bin/../share/sdcc/lib/large/libfloat.lib
+                                          [ _uint2fs.rel ]
+/usr/bin/../share/sdcc/lib/large/libsdcc.lib
+                                          [ _bp.rel ]
+/usr/bin/../share/sdcc/lib/large/libsdcc.lib
+                                          [ vprintf.rel ]
+/usr/bin/../share/sdcc/lib/large/libsdcc.lib
+                                          [ printf_large.rel ]
+/usr/bin/../share/sdcc/lib/large/mcs51.lib
+                                          [ crtpagesfr.rel ]
+/usr/bin/../share/sdcc/lib/large/libsdcc.lib
+                                          [ _strlen.rel ]
+/usr/bin/../share/sdcc/lib/large/libfloat.lib
+                                          [ _fsdiv.rel ]
+/usr/bin/../share/sdcc/lib/large/mcs51.lib
+                                          [ crtstart.rel ]
+/usr/bin/../share/sdcc/lib/large/libsdcc.lib
+                                          [ _gptrget.rel ]
+/usr/bin/../share/sdcc/lib/large/libfloat.lib
+                                          [ _ulong2fs.rel ]
+/usr/bin/../share/sdcc/lib/large/libfloat.lib
+                                          [ _fsget2args.rel ]
+/usr/bin/../share/sdcc/lib/large/libfloat.lib
+                                          [ _fsnormalize.rel ]
+/usr/bin/../share/sdcc/lib/large/libfloat.lib
+                                          [ _fsreturnval.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+
+User Base Address Definitions
+
+HOME = 0x0000
+ISEG = 0x0000
+BSEG = 0x0000
+
+

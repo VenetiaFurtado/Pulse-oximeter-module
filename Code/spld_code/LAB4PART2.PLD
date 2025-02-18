@@ -1,0 +1,27 @@
+Name     Lab4Part2 ;
+PartNo   00 ;
+Date     3/25/2024 ;
+Revision 01 ;
+Designer Venetia Furtado ;
+Company  University of Colorado ;
+Assembly None ;
+Location  ;
+Device   g16v8a ;
+
+/*Enable (E) signal for the LCD needs to be high only during external data read or write in the address range 8000H to FFFFH*/
+
+/* *************** INPUT PINS *********************/
+PIN 2 = A15                        ; /*Setting A15 as input*/ 
+PIN 7 = nRD                        ; /*Setting nRD as input*/ 
+PIN 8 = nWR                        ; /*Setting nWR as input*/ 
+
+/* *************** OUTPUT PINS *********************/
+PIN 12 = E                         ; /*Input for LCD*/ 
+PIN 14 = CP                        ; /*Clock input for the 72LS374 Latch to receive data at output*/
+
+/* *************** LOGIC *********************/
+E = A15 & (!((nRD) & (nWR)))       ; /*Memory maps LCD from 8000H to FFFFH*/
+CP = !((A15) # (nWR))              ; /*Clock input for the 72LS374 Latch to receive data at output*/
+
+
+
